@@ -11,7 +11,50 @@
 */
 
 class Todo {
+  constructor(le){
+    const t=this.le=[];
+
+  }
+
+  add(todo){
+    t.add(todo);
+  }
+  remove(index){
+    if(index>=0 && index<to.length){
+      
+      
+    }
+    else{
+      console.log("index out of boud of exception");
+    }
+  }
+  update(index,updatetodo){
+    if(index>=0 && index<to.length){
+      this.todos[index]=updatetodo;
+    }
+    else{
+      console.log("index out of boud of exception");
+    }
+  }
+  getall(){
+    return t;
+
+  }
+  get(index){
+    if(index>=0 && index<to.length){
+      console.log(t[index]);
+    }
+    else{
+      console.log("index out of boud of exception");
+    }
+  }
+  clear(){
+    this.todos=[];
+  }
 
 }
-
-module.exports = Todo;
+const t=new Todo();
+t.add("siva");
+t.add("sai");
+t.add("krishna");
+console.log(getall());
