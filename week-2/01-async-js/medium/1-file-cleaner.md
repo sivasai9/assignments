@@ -1,13 +1,13 @@
-## File cleaner
-Read a file, remove all the extra spaces and write it back to the same file.
+##Filecleaner
+Readafile,removealltheextraspacesandwriteitbacktothesamefile.
 
-For example, if the file input was
+Forexample,ifthefileinputwas
 ```
-hello     world    my    name   is       raman
+helloworldmynameisraman
 ```
 
-After the program runs, the output should be
+Aftertheprogramruns,theoutputshouldbe
 
 ```
-hello world my name is raman
+helloworldmynameisraman
 ```
